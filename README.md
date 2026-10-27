@@ -4,14 +4,13 @@
 
 **[ดาวน์โหลดไฟล์จาก Releases](https://github.com/Peerapat-J/Microsoft-Office-16.113.4-pgk/releases/tag/16.113.26100421)**
 
-ไฟล์ต้นฉบับขนาด 2,877,627,418 bytes แบ่งเป็น 2 ส่วนเพื่อให้แต่ละส่วนต่ำกว่าขีดจำกัด 2 GiB ของ GitHub Releases ไฟล์ binary เก็บใน Releases ส่วน repo เก็บวิธีรวมไฟล์และ checksum
+ไฟล์ต้นฉบับขนาด 2,877,627,418 bytes แบ่งเป็น 43 ส่วน (ส่วนละไม่เกิน 64 MiB)เพื่อให้แต่ละส่วนต่ำกว่าขีดจำกัด 2 GiB ของ GitHub Releases ไฟล์ binary เก็บใน Releases ส่วน repo เก็บวิธีรวมไฟล์และ checksum
 
 ## ดาวน์โหลดและรวมไฟล์บน macOS
 
 ดาวน์โหลดไฟล์เหล่านี้จาก Releases มาไว้ในโฟลเดอร์เดียวกัน:
 
-- `Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part01`
-- `Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part02`
+- `Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part001` ถึง `.part043`
 - `SHA256SUMS`
 - `SHA256SUMS-original`
 - `restore.sh`
@@ -22,7 +21,7 @@
 sh restore.sh
 ```
 
-สคริปต์ตรวจ SHA-256 ของทั้ง 2 ส่วน รวมกลับเป็น `.pkg` และตรวจ SHA-256 ของไฟล์ที่รวมแล้ว ต้องมีพื้นที่ว่างเพิ่มประมาณ 2.88 GB สำหรับไฟล์ที่รวมแล้ว
+สคริปต์ตรวจ SHA-256 ของทั้ง 43 ส่วน รวมกลับเป็น `.pkg` และตรวจ SHA-256 ของไฟล์ที่รวมแล้ว ต้องมีพื้นที่ว่างเพิ่มประมาณ 2.88 GB สำหรับไฟล์ที่รวมแล้ว
 
 หากใช้ GitHub CLI:
 

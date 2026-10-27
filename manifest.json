@@ -4,14 +4,219 @@
   "sha256": "8212551ea19ce659caf2dc140cf77a26d0e3d8c1473a61e147a146e7711554b7",
   "parts": [
     {
-      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part01",
-      "size": 1610612736,
-      "sha256": "68b01d6e43594c8719f04966cc92a0d9c53da19abee7f0fa4d6b52c5df98139a"
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part001",
+      "size": 67108864,
+      "sha256": "cb7a88eea93ef1ae08091d7b4f336d584dbcac4c37fed888ec6901cdf550eaa4"
     },
     {
-      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part02",
-      "size": 1267014682,
-      "sha256": "68d5026131d7d629b8993891815ad1cbc4667a7df244997e4b872c02c79e1a1e"
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part002",
+      "size": 67108864,
+      "sha256": "0ecc5eeb07242ed4398001f2da7a23f63be5b430e291355be5e821652aaae3e4"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part003",
+      "size": 67108864,
+      "sha256": "b3c501289fb0040f95ad5f9f02d3d844aaee2622d80ebb925f0d69f13dec0c45"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part004",
+      "size": 67108864,
+      "sha256": "24e8bc881f9f9dc60f0e0b0ddbca97e0989875b432e31196f0dcfaed510cc878"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part005",
+      "size": 67108864,
+      "sha256": "c2b9ad2309bf2e1026c4bb81857233365959d91eb720ee59267a6f1713ce007a"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part006",
+      "size": 67108864,
+      "sha256": "d09a6c0f5271b9c569efdb257976a486ed4bd9a83d81684279e966ed7130563f"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part007",
+      "size": 67108864,
+      "sha256": "09e3c2162bcde127f21eac71ab6773b45ce664fd2c2e40941c581a9c8fd29dca"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part008",
+      "size": 67108864,
+      "sha256": "bac10b6df80602011ee6faa52dfa3a1a233c1274f27a04e0eee11548f9929e2d"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part009",
+      "size": 67108864,
+      "sha256": "6f1ceea160fe0f3d68adabe6d5e280cbb651d87fe20f8d12628a7c9ac0991301"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part010",
+      "size": 67108864,
+      "sha256": "6cea5f5e3d6fc79c3c7735ce630c5faed89b50b1f938087f3608bdf7516b4a7d"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part011",
+      "size": 67108864,
+      "sha256": "decb58bcfdca74f021aaa24909a7d8abb3697b3f185c25918cdd063607068eb5"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part012",
+      "size": 67108864,
+      "sha256": "57f0d61cd937fa5a441fca0ad60c1a734229bb8cf8b6a2bd8d174dc390bf42da"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part013",
+      "size": 67108864,
+      "sha256": "bc82c2c95599701e5e8fff49cd3a0a3a633919fca436241483e9b0b981e2a793"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part014",
+      "size": 67108864,
+      "sha256": "3bbc3d4ab892ec479d6271fde71624e751f8e74a5c9c51fc3e6f272fe281f4ef"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part015",
+      "size": 67108864,
+      "sha256": "e6cf68e6a1e44d37c9a129a5312b52760aef0c9386aaced5a0db8b8d74dc168b"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part016",
+      "size": 67108864,
+      "sha256": "140dd429a2449c149acae6a1414dc4651e79aa14d34e4fd056ad51db77262bce"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part017",
+      "size": 67108864,
+      "sha256": "84bec6285d3194a89d79a2ce1450c044132ff59e59f78cbdf7dcc7b14864a9cf"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part018",
+      "size": 67108864,
+      "sha256": "10aa01e08142039c895219c32bb5e00bd9ae564323365f96a2d8ff4859ebc741"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part019",
+      "size": 67108864,
+      "sha256": "3c69f8021d218d3d26319a0d8e5c07f4d2801e719dcd781d2ae47e7efb4ca1a2"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part020",
+      "size": 67108864,
+      "sha256": "e8dbc554827106a003ec3378f3a441dce3f58d2450b5160b92cb9b51efe7448a"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part021",
+      "size": 67108864,
+      "sha256": "2bc859e732cf35842ca21015e23a08c19d6800aa0d064059ef3035c7ae2c7f70"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part022",
+      "size": 67108864,
+      "sha256": "23a3e3bb794df7ee801f0a2c9fdaff945b913cdeffb4db08fde72f05faf2d5eb"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part023",
+      "size": 67108864,
+      "sha256": "c526efbd095fd3a739a094d0ec6089f8214a45404923aa7d27c16852f49d01b3"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part024",
+      "size": 67108864,
+      "sha256": "7937b889edb9005ad7fa5454038279959e3d95121b3870acd5d3ed2f60dba080"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part025",
+      "size": 67108864,
+      "sha256": "b2e999a4b2f81dadbe35728aa43e850f95a9c56c40de2ae3dcaf4befcc36fe38"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part026",
+      "size": 67108864,
+      "sha256": "6918a12e1fec05c969887df009ea137b712fb97b741819b0761cbbe004813f74"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part027",
+      "size": 67108864,
+      "sha256": "9c7ebf4f39b2f3e3df68c42494f61de939878a6b08e397852ae0ef299a7f006e"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part028",
+      "size": 67108864,
+      "sha256": "a02f1c79cc9c500df5c267ab1a5e4ffe410924468b594ba78f5970407ce2d930"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part029",
+      "size": 67108864,
+      "sha256": "fad892de975b2cfe4aa4d08d85c1dd057d5ece4be3b16ee6cc576464eca93e83"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part030",
+      "size": 67108864,
+      "sha256": "c8bd7d2fa0f2da415cf8f8f78f4ecaa62082920f00bad4a13cc76183d8f1fe4d"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part031",
+      "size": 67108864,
+      "sha256": "d71351dcff812d3af9e9bfc28945e21c8574a3c688627674888a4563db3b09c4"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part032",
+      "size": 67108864,
+      "sha256": "1d374e67dcbc5f9f45667c2a8a1b53d4e5b3cbb3652218972f7d29c3f9c31895"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part033",
+      "size": 67108864,
+      "sha256": "e45a5b0aceca35b86a216cb595e29247901a1234ed3d3135ff9ee7da51ae6159"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part034",
+      "size": 67108864,
+      "sha256": "1dac8c1fd1becc619034a6f96194f0383b117bda8af6fa2f5845e9212d6bec16"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part035",
+      "size": 67108864,
+      "sha256": "c2fbe9befbc38aa272a9d7af953dd0e12f11456655d628a22163c2f5dc8b19da"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part036",
+      "size": 67108864,
+      "sha256": "fead1cbba949df17254052b820dcb63fa9f227f4446be588ee93749924db4415"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part037",
+      "size": 67108864,
+      "sha256": "0f14c878fd3cab879159a3c11fb97d14439a830699385bfe317c3a08db30f144"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part038",
+      "size": 67108864,
+      "sha256": "c99c0f223532394aa78326350c89ab3e72c0936d7c28f648aa57699520eb6d92"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part039",
+      "size": 67108864,
+      "sha256": "a0b5b20820345f1faa300f3c7873ad920c724df79c4b619ea61573d312f7a45b"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part040",
+      "size": 67108864,
+      "sha256": "3c10fe317febb2f1be8eb0471a57c53d5a6a9981488651a40f29b358b2c64904"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part041",
+      "size": 67108864,
+      "sha256": "4c45ae1e771b3ab72d03e3693dc16313d53f63be18a5af7d81de0a343ac3f8c8"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part042",
+      "size": 67108864,
+      "sha256": "b132382d908a8b5ebc16eb31a2ebbff8848a4b3c4477294d489ac9771387623d"
+    },
+    {
+      "name": "Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part043",
+      "size": 59055130,
+      "sha256": "f9b3cf33b3edd95918e0a0eb9864fc0022fe54d61ec5e6eae4dc4aff347b0013"
     }
   ]
 }

@@ -9,7 +9,9 @@ fi
 shasum -a 256 -c SHA256SUMS
 partial=$(mktemp "./${filename}.assembling.XXXXXX")
 trap 'rm -f "$partial"' EXIT HUP INT TERM
-cat "$filename.part01" "$filename.part02" > "$partial"
+while read -r checksum part; do
+  cat "$part"
+done < SHA256SUMS > "$partial"
 expected=$(awk '{print $1}' SHA256SUMS-original)
 actual=$(shasum -a 256 "$partial" | awk '{print $1}')
 [ "$actual" = "$expected" ] || { echo 'Combined file checksum mismatch' >&2; exit 1; }
