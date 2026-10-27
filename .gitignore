@@ -1,0 +1,4 @@
+*.pkg
+*.pkg.part*
+*.assembling.*
+.DS_Store
