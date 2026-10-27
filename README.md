@@ -2,30 +2,30 @@
 
 After this version of Microsoft Office, I'm forced to pay subscription to Microsoft 365 apps by no reason. Even though I already paid for one-time purchase many year ago. Fuck you Microsoft.  
 
-เก็บสำเนาไฟล์ `Microsoft_365_and_Office_16.113.26100421_Installer.pkg` ตามไฟล์ต้นฉบับที่อัปโหลด
+An archive of `Microsoft_365_and_Office_16.113.26100421_Installer.pkg`, preserved as originally uploaded.
 
-**[ดาวน์โหลดไฟล์จาก Releases](https://github.com/Peerapat-J/Microsoft-Office-16.113.4-pgk/releases/tag/16.113.26100421)**
+**[Download from Releases](https://github.com/Peerapat-J/Microsoft-Office-16.113.4-pgk/releases/tag/16.113.26100421)**
 
-ไฟล์ต้นฉบับขนาด 2,877,627,418 bytes แบ่งเป็น 43 ส่วน (ส่วนละไม่เกิน 64 MiB)เพื่อให้แต่ละส่วนต่ำกว่าขีดจำกัด 2 GiB ของ GitHub Releases ไฟล์ binary เก็บใน Releases ส่วน repo เก็บวิธีรวมไฟล์และ checksum
+The original file is 2,877,627,418 bytes and is split into 43 parts of up to 64 MiB each, below the 2 GiB limit per GitHub release asset. The binary files are stored in Releases; this repository contains instructions for reassembling them and verifying their checksums.
 
-## ดาวน์โหลดและรวมไฟล์บน macOS
+## Download and reassemble on macOS
 
-ดาวน์โหลดไฟล์เหล่านี้จาก Releases มาไว้ในโฟลเดอร์เดียวกัน:
+Download the following files from Releases into the same folder:
 
-- `Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part001` ถึง `.part043`
+- `Microsoft_365_and_Office_16.113.26100421_Installer.pkg.part001` through `.part043`
 - `SHA256SUMS`
 - `SHA256SUMS-original`
 - `restore.sh`
 
-เปิด Terminal ที่โฟลเดอร์นั้นแล้วรัน:
+Open Terminal in that folder and run:
 
 ```sh
 sh restore.sh
 ```
 
-สคริปต์ตรวจ SHA-256 ของทั้ง 43 ส่วน รวมกลับเป็น `.pkg` และตรวจ SHA-256 ของไฟล์ที่รวมแล้ว ต้องมีพื้นที่ว่างเพิ่มประมาณ 2.88 GB สำหรับไฟล์ที่รวมแล้ว
+The script verifies the SHA-256 checksums of all 43 parts, reassembles the `.pkg` file, and verifies its SHA-256 checksum. You need approximately 2.88 GB of additional free space for the reassembled file.
 
-หากใช้ GitHub CLI:
+With GitHub CLI:
 
 ```sh
 gh release download 16.113.26100421 --repo Peerapat-J/Microsoft-Office-16.113.4-pgk --dir office-installer
@@ -33,12 +33,12 @@ cd office-installer
 sh restore.sh
 ```
 
-## ข้อมูลไฟล์
+## File information
 
-- SHA-256 ต้นฉบับ: `8212551ea19ce659caf2dc140cf77a26d0e3d8c1473a61e147a146e7711554b7`
-- รายละเอียดแต่ละส่วน: [manifest.json](manifest.json)
-- ผลตรวจ `pkgutil --check-signature` ก่อนอัปโหลด: **invalid signature** จึงยังไม่ได้ยืนยันว่าแพ็กเกจนี้ปลอดภัยสำหรับติดตั้ง การตรวจ checksum ยืนยันเพียงว่าไฟล์ที่รวมกลับตรงกับไฟล์ที่อัปโหลด
-- ไม่มีการแก้ไขเนื้อหา installer และไม่มี license หรือ activation key รวมอยู่ในเอกสารของ repo นี้
+- Original SHA-256: `8212551ea19ce659caf2dc140cf77a26d0e3d8c1473a61e147a146e7711554b7`
+- Part details: [manifest.json](manifest.json)
+- The pre-upload `pkgutil --check-signature` check reported **invalid signature**, so this package has not been confirmed safe to install. Checksum verification only confirms that the reassembled file matches the uploaded original.
+- The installer contents have not been modified. This repository’s documentation does not include a license or activation key.
 
 ## Original pkg
 
