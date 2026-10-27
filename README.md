@@ -37,3 +37,7 @@ sh restore.sh
 - รายละเอียดแต่ละส่วน: [manifest.json](manifest.json)
 - ผลตรวจ `pkgutil --check-signature` ก่อนอัปโหลด: **invalid signature** จึงยังไม่ได้ยืนยันว่าแพ็กเกจนี้ปลอดภัยสำหรับติดตั้ง การตรวจ checksum ยืนยันเพียงว่าไฟล์ที่รวมกลับตรงกับไฟล์ที่อัปโหลด
 - ไม่มีการแก้ไขเนื้อหา installer และไม่มี license หรือ activation key รวมอยู่ในเอกสารของ repo นี้
+
+## ดาวน์โหลดไฟล์เต็ม
+
+[ดาวน์โหลดไฟล์ installer แบบเต็มจาก Google Drive](https://drive.google.com/file/d/1i7IJevpDbcWXKl7YZM2xHJpTntMXyF1M/view?usp=sharing) โดยไม่ต้องรวมไฟล์จากหลายส่วน
