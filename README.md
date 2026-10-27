@@ -1,5 +1,7 @@
 # Microsoft Office installer archive
 
+After this version of Microsoft Office, I'm forced to pay subscription to Microsoft 365 apps by no reason. Even though I already paid for one-time purchase many year ago. Fuck you Microsoft.  
+
 เก็บสำเนาไฟล์ `Microsoft_365_and_Office_16.113.26100421_Installer.pkg` ตามไฟล์ต้นฉบับที่อัปโหลด
 
 **[ดาวน์โหลดไฟล์จาก Releases](https://github.com/Peerapat-J/Microsoft-Office-16.113.4-pgk/releases/tag/16.113.26100421)**
@@ -38,6 +40,6 @@ sh restore.sh
 - ผลตรวจ `pkgutil --check-signature` ก่อนอัปโหลด: **invalid signature** จึงยังไม่ได้ยืนยันว่าแพ็กเกจนี้ปลอดภัยสำหรับติดตั้ง การตรวจ checksum ยืนยันเพียงว่าไฟล์ที่รวมกลับตรงกับไฟล์ที่อัปโหลด
 - ไม่มีการแก้ไขเนื้อหา installer และไม่มี license หรือ activation key รวมอยู่ในเอกสารของ repo นี้
 
-## ดาวน์โหลดไฟล์เต็ม
+## Original pkg
 
-[ดาวน์โหลดไฟล์ installer แบบเต็มจาก Google Drive](https://drive.google.com/file/d/1i7IJevpDbcWXKl7YZM2xHJpTntMXyF1M/view?usp=sharing) โดยไม่ต้องรวมไฟล์จากหลายส่วน
+[Google Drive](https://drive.google.com/file/d/1i7IJevpDbcWXKl7YZM2xHJpTntMXyF1M/view?usp=sharing)
