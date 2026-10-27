@@ -1,6 +1,6 @@
-# Microsoft Office installer archive
+# Microsoft Office for Mac version 16.113.4 (26100421) installer archive
 
-After this version of Microsoft Office, I'm forced to pay subscription to Microsoft 365 apps by no reason. Even though I already paid for one-time purchase many year ago. Fuck you Microsoft.  
+After version version 16.113.4 will forced to pay subscription to Microsoft 365 apps by no reason, even though I've already paid for one-time purchase many years ago. Fuck you Microsoft.
 
 An archive of `Microsoft_365_and_Office_16.113.26100421_Installer.pkg`, preserved as originally uploaded.
 
